@@ -1,17 +1,29 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 15px;
+    font-size: 10px;
     color: rgb(73, 73, 73);
-    background-color: bisque;
+    background-color: rgb(252, 151, 228);
+
+    }
+    /* link decoration  */
+    a {
+        color: rgb(0, 81, 128) ;
+        text-decoration: none;
+        font-size: 12px;
+    }
+    a:hover {
+        text-decoration: underline;
+        font-weight: bold;
+        font-size: 18px;
     }
     p{
         font-family: 'Times New Roman', Times, serif;
-        font-size: medium;
+        font-size: x-large;
         color: chocolate;
     }
     li{
         font-style: italic;
-        font-size: small;
+        font-size: x-large;
         color: blue;
         font-weight: normal;
     
@@ -19,7 +31,12 @@ body{
     .resume_heading {
         font-weight: 600;
         font-style: normal;
+    
     }
     .underline {
         text-decoration: underline;
+        font-weight: 800;
+    }
+    .main_body {
+        text-indent: 50px;
     }
